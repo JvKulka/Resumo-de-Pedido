@@ -1,0 +1,121 @@
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+
+#card {
+    background-color: #fff;
+    width: 450px;
+    height: 680px;
+    border-radius: 10px;
+    align-self: center;
+    box-shadow: -1px 18px 12px rgba(114, 128, 167, 0.15);
+}
+
+#img-principal {
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#conteudo {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+#conteudo h1 {
+    font-family: 'Red Hat Display Bold';
+    color: #1f2f56;
+}
+
+#conteudo p {
+    font-size: 17px;
+    padding: 5px 70px;
+    color: #7280a7;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* AREA PLANO */
+
+#inf-plano {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#id-plano {
+    display: flex;
+    align-items: center;
+}
+
+#id-plano img {
+    margin-right: 15px;
+}
+
+#inf-plano h2 {
+    font-family: 'Red Hat Display Bold';
+    font-size: 16px;
+    margin-bottom: -15px;
+    color: #1f2f56;
+}
+
+#inf-plano p {
+    color: rgb(114, 128, 167);
+    font-weight: 500;
+}
+
+#inf-plano a {
+    color: #3829e0;
+    font-weight: 900;
+    font-size: 13px
+}
+
+/* AREAS BOTOES */
+
+#div-btn {
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3829e0;
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    box-shadow: -1px 18px 10px rgba(114, 128, 167, 0.3);
+}
+
+#link-btn {
+    text-decoration: none;
+    width: 320px;
+    height: 40px;
+}
+
+#div-cancel {
+    text-align: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
+#link-cancel {
+    text-decoration: none;
+    font-weight: bold;
+    color: #7280a7;
+}
