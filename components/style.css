@@ -37,7 +37,7 @@ body {
 }
 
 #conteudo p {
-    font-size: 17px;
+    font-size: 1.05rem;
     padding: 5px 70px;
     color: #7280a7;
     font-weight: 500;
@@ -64,7 +64,7 @@ body {
 
 #inf-plano h2 {
     font-family: 'Red Hat Display Bold';
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: -15px;
     color: #1f2f56;
 }
@@ -77,7 +77,7 @@ body {
 #inf-plano a {
     color: #3829e0;
     font-weight: 900;
-    font-size: 13px
+    font-size: 0.8rem;
 }
 
 /* AREAS BOTOES */
@@ -95,7 +95,7 @@ button {
     border: none;
     color: #fff;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: bold;
     margin-top: 30px;
     box-shadow: -1px 18px 10px rgba(114, 128, 167, 0.3);
